@@ -1,5 +1,6 @@
 #include "gameengine.h"
-#include <unistd.h>
+//#include <unistd.h> //<-- Linux header for sleep
+#include <windows.h> //<-- windows header for sleep
 
 using namespace DoodleBugGameOrtell;
 
@@ -25,7 +26,8 @@ int main( )
                   << " "  << "Loop Iterations: " << loop_iterations << std::endl;
         const int sleep_time = 1000;
         std::cout << std::endl;
-        sleep(1);
+        //sleep(1); //linux sleep command
+        Sleep(1000); //windows sleep command
         loop_iterations++;
      }
      (test_engine.get_size_of_ants_deque( ) == 0) ? std::cout << "DoodleBugs Win!\n" :

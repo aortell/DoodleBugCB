@@ -1,4 +1,5 @@
 #include "gameengine.h"
+#include <cstdlib>
 
 namespace DoodleBugGameOrtell
 {
