@@ -38,3 +38,6 @@ Initialize the world with 5 doodlebugs and 100 ants. After each time step, promp
 the user to press Enter to move to the next time step. You should see a cyclical
 pattern between the population of predators and prey, although random perturba-
 tions may lead to the elimination of one or both species.
+
+
+THIS GAME RUNS FOR A LONG TIME!!
