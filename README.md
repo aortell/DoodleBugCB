@@ -40,4 +40,4 @@ pattern between the population of predators and prey, although random perturba-
 tions may lead to the elimination of one or both species.
 
 
-THIS GAME RUNS FOR A LONG TIME!!
+THIS GAME RUNS FOR A LONG TIME BEFORE A WINNER EMERGES!!
