@@ -29,7 +29,7 @@ the third time step it will starve and die. The doodlebug should then be removed
 from the grid of cells.
 During one turn, all the doodlebugs should move before the ants.
 Write a program to implement this simulation and draw the world using ASCII
-characters of “O” for an ant and “X” for a doodlebug. Create a class named
+characters of “X” for an ant and “D” for a doodlebug. Create a class named
 Organism that encapsulates basic data common to ants and doodlebugs. This
 class should have a virtual function named move that is defined in the derived
 classes of Ant and  Doodlebug . You may need additional data structures to keep
@@ -39,5 +39,5 @@ the user to press Enter to move to the next time step. You should see a cyclical
 pattern between the population of predators and prey, although random perturba-
 tions may lead to the elimination of one or both species.
 
-
+You might need to run clean before building.
 THIS GAME RUNS FOR A LONG TIME BEFORE A WINNER EMERGES!!
