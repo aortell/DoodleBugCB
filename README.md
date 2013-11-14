@@ -39,5 +39,6 @@ the user to press Enter to move to the next time step. You should see a cyclical
 pattern between the population of predators and prey, although random perturba-
 tions may lead to the elimination of one or both species.
 
-You might need to run clean before building.
+You might need to clean before building.
+
 THIS GAME RUNS FOR A LONG TIME BEFORE A WINNER EMERGES!!
